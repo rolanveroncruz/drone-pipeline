@@ -2,7 +2,10 @@ module desktop-uploader
 
 go 1.23.0
 
-require github.com/wailsapp/wails/v2 v2.12.0
+require (
+	github.com/eventials/go-tus v0.0.0-20250612203642-7827b129cd4c
+	github.com/wailsapp/wails/v2 v2.12.0
+)
 
 require (
 	git.sr.ht/~jackmordaunt/go-toast/v2 v2.0.3 // indirect
